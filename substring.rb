@@ -12,8 +12,8 @@ def substrings(string, dictionary)
 end
 
 def matched_words(matches)
-  matches.reduce(Hash.new(0)) do |word, occurance|
-    word[occurance] += 1
+  matches.reduce(Hash.new(0)) do |word, occurence|
+    word[occurence] += 1
     word
   end
 end
